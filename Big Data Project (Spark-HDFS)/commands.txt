@@ -1,0 +1,16 @@
+-- start the env
+docker compose up --build -d
+
+-- Place the files in hdfs
+docker cp accessories.csv namenode-master:/
+docker cp jewelry.csv namenode-master:/
+docker cp shoes.csv namenode-master:/
+
+docker exec -it namenode-master bash
+hdfs dfs -put -f /accessories.csv hdfs://namenode-master:8020/
+hdfs dfs -put -f /jewelry.csv hdfs://namenode-master:8020/
+hdfs dfs -put -f /shoes.csv hdfs://namenode-master:8020/
+exit
+
+-stop the env
+docker compose down
