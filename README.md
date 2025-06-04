@@ -1,4 +1,4 @@
-Big Data E-commerce Product Analysis with PySpark
+#Big Data E-commerce Product Analysis with PySpark
 This repository contains an academic project focused on analyzing e-commerce product datasets from NewChic.com using PySpark. The project involves setting up a Big Data environment with Spark and HDFS, performing data transformations, and conducting detailed product analysis.
 
 Project Overview
