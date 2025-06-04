@@ -12,16 +12,12 @@ Data Ingestion: Loading three separate CSV datasets (shoe products, jewelry prod
 **Product Analysis**: Utilizing the transformed data to answer key business questions regarding product popularity, pricing, discounts, and inventory.
 Data Partitioning & Storage: Re-partitioning and loading transformed data into HDFS as Parquet files for optimized storage and retrieval.
 
-Bonus Task: Integrating with a PostgreSQL database to load transformed data as tables.
-
 ## Technologies Used
 **PySpark**: For distributed data processing and analysis.
 
 **Apache HDFS:** For distributed file storage.
 
 **Docker & Docker Compose:** For environment setup and service orchestration.
-
-**PostgreSQL**: For relational database storage.
 
 ## Repository Structure
 **commands.txt**: Contains all commands used to set up and interact with the Docker environment and HDFS.
