@@ -16,10 +16,14 @@ Bonus Task: Integrating with a PostgreSQL database to load transformed data as t
 
 ## Technologies Used
 **PySpark**: For distributed data processing and analysis.
+
 **Apache HDFS:** For distributed file storage.
+
 **Docker & Docker Compose:** For environment setup and service orchestration.
+
 **PostgreSQL**: For relational database storage.
 
 ## Repository Structure
 **commands.txt**: Contains all commands used to set up and interact with the Docker environment and HDFS.
+
 **Product Analysis Project.ipynb**: The main PySpark notebook containing all the code for data loading, transformation, analysis, and partitioning.
